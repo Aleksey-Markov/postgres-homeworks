@@ -1,4 +1,5 @@
 -- SQL-команды для создания таблиц
+
 CREATE TABLE employees
 (
 	employee_id serial PRIMARY KEY,
@@ -12,8 +13,8 @@ CREATE TABLE employees
 CREATE TABLE customers
 (
 	customer_id varchar(5) UNIQUE NOT NULL,
-	company_name varchar(30) NOT NULL,
-	contact_name varchar(30) NOT NULL
+	company_name varchar(50) NOT NULL,
+	contact_name varchar(50) NOT NULL
 );
 
 CREATE TABLE orders
